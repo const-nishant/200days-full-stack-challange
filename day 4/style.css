@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* comment */
+h1{
+    color: red;
+}
+div{
+    color: antiquewhite;
+}
+#heading ,h3{
+    color: green;
+}
+.blue{
+    color: white;
+    background-color: blue;
+    /* border: 2px solid purple; */
+}
