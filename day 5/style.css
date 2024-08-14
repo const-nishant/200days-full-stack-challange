@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+   background-color: black;
+   color: white;
+   height: 10vh;
+}

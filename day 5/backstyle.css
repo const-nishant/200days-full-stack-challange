@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url("image.png");
+    background-repeat: no-repeat; */
+    background-size: auto;
+    /* background-position: top center; */
+    /* to make the image fixed at the position */
+    /* background-attachment: fixed; */
+
+    /* background short hand  */
+    background: red url("image.png") no-repeat fixed center;
+
+}
+
+.container {
+    background-color: rgb(255, 106, 0);
+    color: white;
+}
