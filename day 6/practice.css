@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 2px solid white;
+    background: black;
+    height: 68px;
+    color: white;
+}
+.content{
+    background: red;
+    height: 90vh;
+    padding: 33px;
+    margin: 34px;
+    box-sizing: border-box;
+}
+footer{
+    background: aqua;
+    margin: 24px;
+}
+.center{
+    text-align: center;
+}
