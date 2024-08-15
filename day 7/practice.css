@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: block;
+    background: black;
+    color: white;
+    height: 10vh;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 20px  14px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.right {
+    background: green;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+
+.left {
+    background: red;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+footer{
+    font-family: "New Amsterdam", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background: black;
+    color: white;
+    height: 10vh;
+    padding: 34;
+}

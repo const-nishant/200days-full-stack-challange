@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    display: inline;
+    background: red;
+    /* if inline block widht and height is respected  */
+    height: 1134px;
+    width: 431px;
+    /* margin & padding can only be given to left and right side if display is inline */
+    /* margin: 34px; */
+    /* padding: 34px; */
+}
+
+.box2 {
+    /* display: inline; */
+    text-align: center;
+    /* defines the text decoration */
+    /* text-decoration: underline; */
+    /* upper case or lower case the text */
+    /* text-transform: capitalize; */
+    /* defines the line height */
+    /* line-height: 100px; */
+    /* font  */
+    /* spaces between words or letters then add '' */
+    /* font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps; */
+    background: aqua;
+    height: 1134px;
+    width: 431px;
+}
