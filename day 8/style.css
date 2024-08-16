@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    font-size: 30px;
+} */
+
+/* .box {
+    background: red; */
+/* font-size: 12px; */
+/* 3em means 3 times the size of the parent */
+/* 3rem means 3 times the size of the root/default font size */
+/* font-size: 3rem; */
+/* } */
+/* .box2{
+    background: aqua; */
+/* width: 334px; */
+/* vh means view port height vw means view port width */
+/* width: 50vw;
+    height: 50vh;
+} */
+/* .container {
+    background: red;
+    width: 344px;
+    height: 144vh;
+    max-height: 50vh;
+ } */
+li {
+    display: inline;
+    list-style: none;
+}
+
+header {
+    background: black;
+    color: white;
+    height: 68px;
+    /* the z index is used to specify the stack order of an element */
+    z-index: 1;
+}
+
+p {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.container {
+    background: aqua;
+    height: 130vh;
+    width: 50vw;
+    margin: auto;
+    padding: 0 34px;
+}
+
+.box {
+    height: 30px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    /* top: 13px;
+    left: 41px; */
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(183, 219, 183);
+    position: absolute;
+    /* if we give top and left then it will be relative to the parent (when absolute) */
+    /* when position is fixed then it will be relative to the screen/browser */
+    /* when postion is sticky then it will be  */
+    top: 13px;
+    left: 41px;
+}

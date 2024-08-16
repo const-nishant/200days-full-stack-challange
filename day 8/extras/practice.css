@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 34px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 15vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    height: 80vh;
+    width: 40vw;
+    background-color: red;
+}
+
+.right {
+    height: 80vh;
+    width: 40vw;
+    background-color: aqua;
+}

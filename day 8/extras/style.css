@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+    height: 150vh;
+    align-items: center;
+    /* difference btwn align items and align content is that align content will align the items in the cross axis */
+    align-content: center;
+
+}
+
+.box1 {
+    height: 234px;
+    /* width: 345px; */
+    background: blue;
+    border: 2px solid black;
+    order: 4;
+    /* align-self: flex-end; */
+    flex-grow: 1;
+}
+
+.box2 {
+    height: 234px;
+    width: 345px;
+    background: red;
+    border: 2px solid black;
+
+}

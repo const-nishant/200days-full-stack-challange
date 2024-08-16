@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: block;
+    background: black;
+    color: white;
+    height: 10vh;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px  14px;
+    padding: 0 14px;
+    font-size: 2vw;
+}
+.container{
+    min-height: 2333px;
+    background: red;
+    z-index: 10;
+    position: relative;
+}
