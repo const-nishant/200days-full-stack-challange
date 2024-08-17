@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 34vh;
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: brown;
+    }
+    .container{
+        background-color: yellow;
+    }
+}
+
+
+
+
+/* grid code  */
+/* .container{
+    display: grid;
+    background-color: yellow;
+    height: 56vh; */
+    /* grid-row-gap: 9px;
+    grid-column-gap: 9px; */
+    /* grid-template-columns: 34px 334px auto;
+    grid-template-rows: 44px 84px auto; */
+    /* grid-template-columns: auto auto auto auto; 
+    grid-gap: 2px 9px; */
+    /* align-content: space-between; */
+    
+/* } */
+/* .item{
+    background-color: aquamarine;
+    border: 2px solid red;
+} */
