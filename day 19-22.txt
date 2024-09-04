@@ -3,3 +3,5 @@ working on a static portfolio
 day 19 -
 worked on the home page of portfolio
 
+day 20 -
+worked on other remaning pages of portfolio (responsiveness remaning)
