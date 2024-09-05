@@ -5,3 +5,6 @@ worked on the home page of portfolio
 
 day 20 -
 worked on other remaning pages of portfolio (responsiveness remaning)
+
+day 21-
+worked on makeing the website responsive(need to implemet menu icon logic)
