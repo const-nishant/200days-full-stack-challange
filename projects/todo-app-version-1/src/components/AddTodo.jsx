@@ -1,49 +1,38 @@
-import { useState } from "react";
+import { useRef } from "react";
 import { MdAddComment } from "react-icons/md";
 
 function AddTodo({ onNewItem }) {
-  const [todoName, setTodoName] = useState("");
-  const [dueDate, setDueDate] = useState("");
+  const todoNameElement = useRef();
+  const dueDateElement = useRef();
 
-  const handleNameChange = (e) => {
-    // console.log(e.target.value);
-    setTodoName(e.target.value);clearImmediate
-  };
-  const handleDateChange = (e) => {
-    // console.log(e.target.value);
-    setDueDate(e.target.value);
-  };
-
-  const hanldeAddButtonClick = () => {
+  const hanldeAddButtonClick = (e) => {
+    e.preventDefault();
+    const todoName = todoNameElement.current.value;
+    const dueDate = dueDateElement.current.value;
     onNewItem(todoName, dueDate);
-    setTodoName("");
-    setDueDate("");
+    todoNameElement.current.value = "";
+    dueDateElement.current.value = "";
   };
 
   return (
     <div className="container ">
-      <div className="row np-row">
+      <form action="" className="row np-row" onSubmit={hanldeAddButtonClick}>
         <div className="col-6">
           <input
             type="text"
+            ref={todoNameElement}
             placeholder="Enter Todo Here"
-            onChange={handleNameChange}
-            value={todoName}
           />
         </div>
         <div className="col-4">
-          <input type="date" onChange={handleDateChange} value={dueDate} />
+          <input type="date" ref={dueDateElement} />
         </div>
         <div className="col-2">
-          <button
-            type="button"
-            className="btn btn-success np-btn"
-            onClick={() => hanldeAddButtonClick()}
-          >
+          <button className="btn btn-success np-btn">
             <MdAddComment />
           </button>
         </div>
-      </div>
+      </form>
     </div>
   );
 }
