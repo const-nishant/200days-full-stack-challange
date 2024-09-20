@@ -1,12 +1,13 @@
 import { useState } from "react";
+import { MdAddComment } from "react-icons/md";
 
 function AddTodo({ onNewItem }) {
-  const [todoName, setTodoName] = useState();
-  const [dueDate, setDueDate] = useState();
+  const [todoName, setTodoName] = useState("");
+  const [dueDate, setDueDate] = useState("");
 
   const handleNameChange = (e) => {
     // console.log(e.target.value);
-    setTodoName(e.target.value);
+    setTodoName(e.target.value);clearImmediate
   };
   const handleDateChange = (e) => {
     // console.log(e.target.value);
@@ -39,7 +40,7 @@ function AddTodo({ onNewItem }) {
             className="btn btn-success np-btn"
             onClick={() => hanldeAddButtonClick()}
           >
-            Add
+            <MdAddComment />
           </button>
         </div>
       </div>
