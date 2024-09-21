@@ -1,0 +1,13 @@
+.todoHeading {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.todoSubHeading {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 10px;
+  margin-bottom: 25px;
+}
