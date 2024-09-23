@@ -1,11 +1,11 @@
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import "./App.css";
 import Sidebar from "./components/Sidebar.jsx";
 import CreatePost from "./components/CreatePost.jsx";
 import PostList from "./components/PostList.jsx";
 import PostsListProvider from "./store/posts-list-store.jsx";
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [SelectedTab, setSelectedTab] = useState("Home");
