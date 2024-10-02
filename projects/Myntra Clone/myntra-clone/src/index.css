@@ -241,7 +241,6 @@ header {
 a.action_container:link {
   color: black;
 }
-
 .bag-items-container {
   display: inline-block;
   width: 64%;
@@ -377,4 +376,8 @@ a.action_container:link {
   width: 14px;
   height: 14px;
   cursor: pointer;
+}
+
+.spinner {
+  margin: 100px 0px;
 }

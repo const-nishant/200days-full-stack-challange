@@ -1,4 +1,14 @@
+import { useDispatch } from "react-redux";
+import { MdDeleteOutline } from "react-icons/md";
+import { bagActions } from "../store/bagSlice";
+
 const BagItem = ({ item }) => {
+  const dispatch = useDispatch();
+
+  const removeFromBag = () => {
+    dispatch(bagActions.removeFromBag(item.id));
+  };
+
   return (
     <div className="bag-items-container">
       <div className="bag-item-container">
@@ -27,11 +37,8 @@ const BagItem = ({ item }) => {
           </div>
         </div>
 
-        <div
-          className="remove-from-cart"
-          onClick={() => console.log("remove from cart")}
-        >
-          X
+        <div className="remove-from-cart" onClick={() => removeFromBag()}>
+          <MdDeleteOutline />
         </div>
       </div>
     </div>
