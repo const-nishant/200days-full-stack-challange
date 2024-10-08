@@ -34,7 +34,7 @@ function IconList({ selectedIcon }) {
       >
         <Icon name={iconList.name} color={"#000"} size={20} />
       </div>
-      <Dialog open={openDialog}>
+      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Pick Your Favorite Icon</DialogTitle>
