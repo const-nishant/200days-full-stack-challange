@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #141414;
+  --second-bg-color: #001005;
+  --text-color: #fff;
+  --main-color: #00ff51;
+}
+
+body {
+  font-family: Noto Sans, sans-serif;
+  background-image: url(./background.jpg);
+  background-size: cover;
+}
+
+.pfp {
+  width: 84px;
+  height: 84px;
+  border-radius: 42px;
+  object-fit: cover;
+}
+
+.heading {
+  margin: 4px;
+  color: var(--main-color);
+}
+
+.intro-p {
+  margin: 0px;
+  font-size: 16px;
+  line-break: 2px;
+  font-family: 'PT Mono', monospace;
+}
+
+.intro-window {
+  position: absolute;
+  background-color: #141414;
+  color: var(--text-color);
+  border: solid;
+  border-radius: 14px;
+  width: 30%;
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-bar {
+  position: absolute;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.125);
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+}
+
+.left-align-text {
+  margin-left: 16px;
+  font-weight: 700;
+  background-color: rgba(256, 256, 256, 0.125);
+  padding: 4px 12px;
+  border-radius: 16px;
+
+}
+
+.right-align-text {
+  margin-right: 16px;
+  background-color: rgba(256, 256, 256, 0.125);
+  padding: 4px 12px;
+  border-radius: 16px;
+
+}
