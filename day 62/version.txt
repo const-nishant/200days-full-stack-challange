@@ -1,0 +1,16 @@
+^4.21.1
+
+//part 1 - ^
+
+//part 2 - 4
+
+//part 3- 21
+
+//part 4 - 1
+
+part 4 = minor fix (optional update)
+
+part 3 = secirty fix (recommended bug fix)
+
+part 2 = major release (breaking update)
+
