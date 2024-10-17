@@ -1,0 +1,13 @@
+REST API 
+
+GET/users - get all users //done 
+
+
+//dynamic path parameter
+GET/users/1 - get user by id 1 //done 
+
+POST/users - create new user
+
+PATCH/users/1 - update user by id 1
+DELETE/users/1 - delete user by id 1
+
