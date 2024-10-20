@@ -1,0 +1,12 @@
+Architecture of mongo db
+
+Collection --(user,post,comment)
+-->Document 1
+-->Document 2
+-->Document 3
+
+
+
+schema --- define the structure of document
+    schema --make model
+    model-- crud operation
