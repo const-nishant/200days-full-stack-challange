@@ -1,9 +1,15 @@
+require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
 
 const port = 3000;
+
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then(() => console.log("MongoDB Connected"))
+  .catch((err) => console.log(err));
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json({ extended: false }));
@@ -12,10 +18,6 @@ app.use(express.json({ extended: false }));
 //   .connect(" mongodb://127.0.0.1:27017/")
 //   .then(() => console.log("MongoDB Connected"))
 //   .catch((err) => console.log(err));
-mongoose
-  .connect(" mongodb+srv://nsjocker04:nishat1947@cluster0.xup9c.mongodb.net/")
-  .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.log(err));
 
 //schema
 const userSchema = new mongoose.Schema({
