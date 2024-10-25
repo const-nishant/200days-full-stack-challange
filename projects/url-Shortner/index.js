@@ -4,6 +4,7 @@ const urlRoutes = require("./routes/url");
 const connectMongoDb = require("./connection");
 const url = require("./models/url");
 const newRoute = require("./routes/newRoute");
+const userRoute = require("./routes/user");
 const path = require("path");
 
 const app = express();
@@ -18,6 +19,7 @@ app.set("views", path.resolve("./view"));
 
 app.use("/url", urlRoutes);
 app.use("/", newRoute);
+app.use("/user", userRoute);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
